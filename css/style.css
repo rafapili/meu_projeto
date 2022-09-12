@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #99bfc6;
+  text-align: center;
+}
+
+#eu {
+  border: solid snow;
+  text-align: center;
+  border-radius: 500px;
+  width: 400px;
+  height: auto;
+}
+.txtintro {
+  text-align: center;
+  color: #3d6176;
+  font-size: larger;
+}
+.nave {
+  text-align: center;
+  border: solid;
+  background: snow;
+  height: 82 px;
+  width: 100%;
+}
+.nave ul li:hover {
+  border-radius: 50px;
+  background-color: skyblue;
+}
+.nave ul li {
+  display: inline-block;
+  line-height: 60px;
+  margin: 0 100px;
+}
+.nave ul li a {
+  text-decoration: none;
+  color: #3d6176;
+  font-size: 14px;
+  padding: 52px 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.resumo {
+  color: #3d6176;
+  background-color: snow;
+  font-size: 19pt;
+  text-align: center;
+}
+.facul {
+  width: auto;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+.hobbie {
+  color: #3d6176;
+  font-size: 18pt;
+  background-color: snow;
+}
+#imghob {
+  width: auto;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+.contatos img {
+  margin-bottom: -5px;
+  margin-right: 5px;
+  width: 40px;
+  height: auto;
+}
+.contatos {
+  border-radius: 80px;
+  background-color: snow;
+  margin-right: 200px;
+  margin-left: 200px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.contatos a:hover,
+a:link,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+.contatos li {
+  list-style: none;
+  line-height: 100px;
+  color: black;
+}
+.contatos li:hover {
+  border-radius: 50px;
+  background-color: #3d6176;
+  text-decoration: none;
+  color: white;
+  justify-content: space;
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    margin: 1em 2em;
+  }
+}
